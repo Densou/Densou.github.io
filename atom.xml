@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tian Zhuang</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-03-25T10:35:25.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Tian Zhuang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>简明教程：使用hexo+git建立个人博客</title>
+    <link href="http://yoursite.com/2018/03/25/%E7%AE%80%E6%98%8E/"/>
+    <id>http://yoursite.com/2018/03/25/简明/</id>
+    <published>2018-03-25T09:11:58.000Z</published>
+    <updated>2018-03-25T10:35:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前期准备工作"><a href="#1-前期准备工作" class="headerlink" title="1 前期准备工作"></a>1 前期准备工作</h2><p>以下任务可以听着音乐无压力完成~</p><ol><li>一个<a href="https://github.com" target="_blank" rel="noopener">GitHub</a>账号，用户名为gitusername<br></li><li>下载、安装<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git</a><br></li><li>下载、安装<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Nodejs</a><br></li><li>安装Hexo：在上述任务都完成后，打开terminal(Mac OS环境下)，输入如下命令以安装hexo<code>sudo npm install hexo-cli -g</code></li></ol><!--注释 --><h2 id="2-建立GitHub仓库"><a href="#2-建立GitHub仓库" class="headerlink" title="2 建立GitHub仓库"></a>2 建立GitHub仓库</h2><p>登录GitHub后，在首页点击new repository，新建一个仓库，这里的owner是你注册GitHub账号的名字gitusername，仓库名要取成gitusername.github.io的形式，点击create repository创建成功。举例：</p><div align="center"><br><img src="/2018/03/25/简明/1.png" width="300" alt="new repository"><br></div><!--插入图片方法一：上传到网络 --><h2 id="3-搭建博客框架"><a href="#3-搭建博客框架" class="headerlink" title="3 搭建博客框架"></a>3 搭建博客框架</h2><h3 id="3-1-创建博客"><a href="#3-1-创建博客" class="headerlink" title="3.1 创建博客"></a>3.1 创建博客</h3><p>在terminal中，输入命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init gitusername.github.io</span><br></pre></td></tr></table></figure></p><p>，可以看到新建了一个名为“gitusername.github.io”的文件夹。<br>接着输入命令<br><code>cd gitusername.github.io</code><br>进入这个文件夹。</p><h3 id="3-2-配置参数"><a href="#3-2-配置参数" class="headerlink" title="3.2 配置参数"></a>3.2 配置参数</h3><p>在gitusername.github.io文件夹中，找到名为_config.yml的配置文件，用文本编辑方式打开，修改参数：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">language: zh-CN</span><br><span class="line">deploy:</span><br><span class="line">  type: git </span><br><span class="line">  repo: https://github.com/gitusername/gitusername.github.io.git</span><br></pre></td></tr></table></figure><p>注意：type前面要空两格，冒号后面一个空格。</p><h3 id="3-3-测试"><a href="#3-3-测试" class="headerlink" title="3.3 测试"></a>3.3 测试</h3><p>在命令行中输入<br><code>hexo s</code><br>进行测试，如果配置无误，可以在浏览器输入 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 看到网页。</p><h3 id="3-4-安装自动部署发布工具"><a href="#3-4-安装自动部署发布工具" class="headerlink" title="3.4 安装自动部署发布工具"></a>3.4 安装自动部署发布工具</h3><p>在命令行中输入<br><code>npm install hexo-deployer-git --save</code></p><h3 id="3-5-发布到GitHub"><a href="#3-5-发布到GitHub" class="headerlink" title="3.5 发布到GitHub"></a>3.5 发布到GitHub</h3><p>在命令行中分别输入以下命令:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>如果之前没有登录过git账户，这里会提醒你输入用户名和密码。</p><h3 id="3-6-见证奇迹的时刻到了"><a href="#3-6-见证奇迹的时刻到了" class="headerlink" title="3.6 见证奇迹的时刻到了"></a>3.6 见证奇迹的时刻到了</h3><p>在浏览器输入gitusername.github.io，就可以看到自己的独立博客啦。<br>HELLO WORLD.</p><h2 id="4-完善你的博客"><a href="#4-完善你的博客" class="headerlink" title="4 完善你的博客"></a>4 完善你的博客</h2><p>上述是建立借助GitHub和hexo矿机一个博客最基本的流程。在这过程中出现了bug，不要气馁，calm down，看看是不是哪一步错了，再上网看看有没有遇到同样问题的网友。我第一次建立博客，也是花了两天时间才成功。如果你顺利完成，肯定迫不及待要为它添砖加瓦、梳妆打扮吧。</p><h3 id="4-1-添砖加瓦"><a href="#4-1-添砖加瓦" class="headerlink" title="4.1 添砖加瓦"></a>4.1 添砖加瓦</h3><p><strong>方法1：</strong><br><br>直接在source/_posts/文件夹中，新建markdown文档。</p><p><strong>方法2：</strong><br><br><a href="https://hexo.io/zh-cn/docs/writing.html" target="_blank" rel="noopener">官方方法</a>：输入命令<br><code>hexo new &quot;post&quot;</code><br>后，source/_posts/文件夹中即新建了一个名为post的MD文档。</p><p>在命令行中再次输入：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>即可完成博客发布。</p><h3 id="4-2-梳妆打扮"><a href="#4-2-梳妆打扮" class="headerlink" title="4.2 梳妆打扮"></a>4.2 梳妆打扮</h3><h4 id="4-2-1-插入图片"><a href="#4-2-1-插入图片" class="headerlink" title="4.2.1 插入图片"></a>4.2.1 插入图片</h4><p><strong>方法1：</strong><br><br>将图片上传到网络，在markdown本文中直接输入图片地址，格式：<br><code>![title](URL)</code><br>。</p><p><strong>方法2：</strong><br><br>将_config.yml文档中的post_asset_folder参数设置为true：<br><code>post_asset_folder: true</code><br>，再在terminal中输入命令<br><code>npm install https://github.com/CodeFalling/hexo-asset-image --save</code>。</p><p>以后再使用命令<br><code>hexo new &quot;post&quot;</code><br>新建博文时，hexo将在source/_posts/文件夹中简历一个名为post的文件夹，将图片放入该文件夹，在MD文档中使用<br><code>![title](post/image.jpg)</code><br>命令就可以插入图片。</p><h4 id="4-2-2-套用主题"><a href="#4-2-2-套用主题" class="headerlink" title="4.2.2 套用主题"></a>4.2.2 套用主题</h4><p>找到模板，点击clone or download复制：</p><div align="center"><br><img src="/2018/03/25/简明/2.png" width="500" alt="clone theme"><br></div><p>输入<code>git clone https://github.com/Simlesos/hexo-theme-chord.git themes/chord</code>，将这个主题复制到themes文件夹中，以chord命名。</p><p>将_config.yml文件夹中的theme参数改为chord。</p><p>重新部署。</p><h2 id="致谢："><a href="#致谢：" class="headerlink" title="致谢："></a><strong>致谢：</strong></h2><p><a href="https://www.jianshu.com/p/4eaddcbe4d12" target="_blank" rel="noopener">5分钟 搭建免费个人博客</a></p><p><a href="https://www.jianshu.com/p/8f55e7dc36f8" target="_blank" rel="noopener">hexo上传博客后，网页显示404问题解决方案</a></p><p><a href="https://www.jianshu.com/p/c2ba9533088a" target="_blank" rel="noopener">hexo博客图片问题</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;1-前期准备工作&quot;&gt;&lt;a href=&quot;#1-前期准备工作&quot; class=&quot;headerlink&quot; title=&quot;1 前期准备工作&quot;&gt;&lt;/a&gt;1 前期准备工作&lt;/h2&gt;&lt;p&gt;以下任务可以听着音乐无压力完成~&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个&lt;a href=&quot;https
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
