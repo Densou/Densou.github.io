@@ -1,308 +1,148 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html lang=zh>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="产品分析,游戏," />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="Tian Zhuang" type="application/atom+xml" />
-
-
-
-
-
-
-<meta name="description" content="有一天无所事事时看到同事在玩手机，凑上去想看一眼在玩啥——哟，这个游戏挺容易的嘛，点这里，这里有！你一边给同事提醒一边跃跃欲试，看了一局让给你玩一把，甚至也在手机上下了这游戏。游戏好简单啊，一局一会儿会儿就完成了，再来一局。哎哟，快赶上同事了~ 这个场景是否似曾相识？不管是微信、微博等社交工具，还是火山、抖音等短视频，都具有一旦打开就被吸引进去的特性。有人指出，在这些产品背后，有一套让人上瘾的机制">
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="有一天无所事事时看到同事在玩手机，凑上去想看一眼在玩啥——哟，这个游戏挺容易的嘛，点这里，这里有！你一边给同事提醒一边跃跃欲试，看了一局让给你玩一把，甚至也在手机上下了这游戏。游戏好简单啊，一局一会儿会儿就完成了，再来一局。哎哟，快赶上同事了~ 这个场景是否似曾相识？不管是微信、微博等社交工具，还是火山、抖音等短视频，都具有一旦打开就被吸引进去的特性。有人指出，在这些产品背后，有一套让人上瘾的机制">
 <meta name="keywords" content="产品分析,游戏">
 <meta property="og:type" content="article">
 <meta property="og:title" content="开心消消乐为什么让人上瘾">
 <meta property="og:url" content="http://yoursite.com/2018/03/26/消消乐/index.html">
 <meta property="og:site_name" content="Tian Zhuang">
 <meta property="og:description" content="有一天无所事事时看到同事在玩手机，凑上去想看一眼在玩啥——哟，这个游戏挺容易的嘛，点这里，这里有！你一边给同事提醒一边跃跃欲试，看了一局让给你玩一把，甚至也在手机上下了这游戏。游戏好简单啊，一局一会儿会儿就完成了，再来一局。哎哟，快赶上同事了~ 这个场景是否似曾相识？不管是微信、微博等社交工具，还是火山、抖音等短视频，都具有一旦打开就被吸引进去的特性。有人指出，在这些产品背后，有一套让人上瘾的机制">
-<meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-02T14:09:44.000Z">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-04-02T14:38:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="开心消消乐为什么让人上瘾">
 <meta name="twitter:description" content="有一天无所事事时看到同事在玩手机，凑上去想看一眼在玩啥——哟，这个游戏挺容易的嘛，点这里，这里有！你一边给同事提醒一边跃跃欲试，看了一局让给你玩一把，甚至也在手机上下了这游戏。游戏好简单啊，一局一会儿会儿就完成了，再来一局。哎哟，快赶上同事了~ 这个场景是否似曾相识？不管是微信、微博等社交工具，还是火山、抖音等短视频，都具有一旦打开就被吸引进去的特性。有人指出，在这些产品背后，有一套让人上瘾的机制">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Pisces',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://yoursite.com/2018/03/26/消消乐/"/>
-
-
-
-
-
-  <title>开心消消乐为什么让人上瘾 | Tian Zhuang</title>
-  
-
-
-
-
-
-
-
-
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>开心消消乐为什么让人上瘾</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- persian styles -->
+    
+      <link rel="stylesheet" href="/css/rtl.css">
+    
+    <!-- rss -->
+    
+    
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-  
+<body class="max-width mx-auto px3 ltr">
     
-  
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/categories">categories</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2018/03/30/产品数据类型/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2018/03/26/抖音/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">返回顶部</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://yoursite.com/2018/03/26/消消乐/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://yoursite.com/2018/03/26/消消乐/&text=开心消消乐为什么让人上瘾"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yoursite.com/2018/03/26/消消乐/&is_video=false&description=开心消消乐为什么让人上瘾"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=开心消消乐为什么让人上瘾&body=Check out this article: http://yoursite.com/2018/03/26/消消乐/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://yoursite.com/2018/03/26/消消乐/&name=开心消消乐为什么让人上瘾&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
 
-  <div class="container sidebar-position-left page-post-detail">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Tian Zhuang</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
     </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#触发-TRIGGER"><span class="toc-number">1.</span> <span class="toc-text">触发/TRIGGER</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#行动-ACTION"><span class="toc-number">2.</span> <span class="toc-text">行动/ACTION</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#酬赏-REWARD"><span class="toc-number">3.</span> <span class="toc-text">酬赏/REWARD</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#投入-INVESTMENT"><span class="toc-number">4.</span> <span class="toc-text">投入/INVESTMENT</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#总结"><span class="toc-number">5.</span> <span class="toc-text">总结</span></a></li></ol>
+    </div>
+  </span>
 </div>
 
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
+    
+    <div class="content index my4">
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
-        </li>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        开心消消乐为什么让人上瘾
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Tian Zhuang</span>
+      </span>
       
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
+    <div class="postdate">
+        <time datetime="2018-03-26T07:22:56.000Z" itemprop="datePublished">2018-03-26</time>
+    </div>
 
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-
-  <div id="posts" class="posts-expand">
-    
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/26/消消乐/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Tian Zhuang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Tian Zhuang">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">开心消消乐为什么让人上瘾</h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-26T15:22:56+08:00">
-                2018-03-26
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
 
       
-      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/产品分析/">产品分析</a>, <a class="tag-link" href="/tags/游戏/">游戏</a>
+    </div>
 
-      
-        <p>有一天无所事事时看到同事在玩手机，凑上去想看一眼在玩啥——哟，这个游戏挺容易的嘛，点这里，这里有！你一边给同事提醒一边跃跃欲试，看了一局让给你玩一把，甚至也在手机上下了这游戏。游戏好简单啊，一局一会儿会儿就完成了，再来一局。哎哟，快赶上同事了~</p>
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>有一天无所事事时看到同事在玩手机，凑上去想看一眼在玩啥——哟，这个游戏挺容易的嘛，点这里，这里有！你一边给同事提醒一边跃跃欲试，看了一局让给你玩一把，甚至也在手机上下了这游戏。游戏好简单啊，一局一会儿会儿就完成了，再来一局。哎哟，快赶上同事了~</p>
 <p>这个场景是否似曾相识？不管是微信、微博等社交工具，还是火山、抖音等短视频，都具有一旦打开就被吸引进去的特性。有人指出，在这些产品背后，有一套让人上瘾的机制，并以此著称《上瘾》一书。<br>作为对产品的一个体验，上瘾机制包括了从接触产品、到开始使用、再到使用之后还会对用户产生持续吸引的完整闭环。在书中，作者提出的有四个环节：触发，行动，回报，投资。下面以开心消消乐为例，借助上瘾模型来说明一款产品如何做到让人上瘾般的欲罢不能。</p>
 <h1 id="触发-TRIGGER"><a href="#触发-TRIGGER" class="headerlink" title="触发/TRIGGER"></a>触发/TRIGGER</h1><p>如何启动用户对产品的使用？从驱动来源来看，有外部触发和内部触发。外部触发是用户能够接触到的信息或者刺激，包括百度、今日头条等推广，新闻报道、人际传播等。内部触发是用户心理上的需求和人性弱点，比如虚荣心、获得尊重、避免无聊等等。内部和外部触发都和情境离不开，尤其是产品的内部触发设计上，要考虑到用户所处的场景、环境和时刻，在怎样的状态下、怀着怎样的情绪，进行一系列行为的前因后果。</p>
 <p>外部触发主要以争取新用户为目标。内部触发、或者叫作自主触发是产品针对老用户，用以逐渐让用户养成重复使用产品的习惯。可以说是外部触发完成了用户的拉新，吸引用户完成下一步行动，进入上瘾模型。而内部触发用以维持用户留存，保持产品的粘性。</p>
@@ -319,391 +159,100 @@
 </ul>
 <p>对酬赏最为迫切不是拿到酬赏的时候、而是在期待酬赏的时候。用户在使用产品的过程中，往往是存在多种酬赏期待的。开心消消乐会根据用户的操作结果给予分数、目标进度、消除特效、音效及字母赞赏的反馈，这些都属于猎物酬赏。分数和目标进度都是显而易见的、相对有预期的反馈，而消除特效是无法预知的、带有运气的属性，对于用户来说更加重了期待。每局游戏的目标都不完全一致，一方面避免了持续进行同类游戏的厌倦感，另一方面也开心消消乐的通关特效丰富生动，加强用户的自我实现酬赏。</p>
 <h1 id="投入-INVESTMENT"><a href="#投入-INVESTMENT" class="headerlink" title="投入/INVESTMENT"></a>投入/INVESTMENT</h1><p>用户对产品投入的时间、精力和劳动越多，就越不易遗弃这款产品。不同的产品类型可以有不同的用户投入，社交型产品中用户投入了时间和关注；内容型产品如网易云音乐、豆瓣，用户不仅投入了时间，更贡献了评论、收藏、整理表单等劳动，对于平台具有粘性。对于游戏类产品来说，用户投入时间乃至金钱是自然而然的。相应的，产品对于用户的累积投入要回报以明确的积分、称号等奖赏。在开心消消乐中，随着用户闯关过程，用户会积累银币、风车币等虚拟资产，以及星星来解锁关卡。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本文参考上瘾模型分析了开心消消乐这款产品，实际上，开心消消乐作为一款休闲小游戏，游戏基础规则简单，但获得了广大的用户群体和长期的活跃，除了上述分析的模块，在游戏设置上有很多值得学习的地方。尤其是怎样设计关卡，既满足用户成长的曲线、逐渐增加难度，又巧妙地设置不同的通关目标，让用户在持续玩游戏的过程中始终体会到新奇和挑战。</p>
 
-      
+  </div>
+</article>
+
+
+
     </div>
     
-    
-    
+      <div id="footer-post-container">
+  <div id="footer-post">
 
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/产品分析/" rel="tag"># 产品分析</a>
-          
-            <a href="/tags/游戏/" rel="tag"># 游戏</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/03/26/抖音/" rel="next" title="互联网娱乐产品之抖音 产品分析报告">
-                <i class="fa fa-chevron-left"></i> 互联网娱乐产品之抖音 产品分析报告
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/30/产品数据类型/" rel="prev" title="产品数据类型">
-                产品数据类型 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-
-    <div class="post-spread">
-      
-    </div>
-  </div>
-
-
-          </div>
-          
-
-
-          
-
-  
-
-
-
-        </div>
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/categories">categories</a></li>
         
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+      </ul>
     </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#触发-TRIGGER"><span class="toc-number">1.</span> <span class="toc-text">触发/TRIGGER</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#行动-ACTION"><span class="toc-number">2.</span> <span class="toc-text">行动/ACTION</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#酬赏-REWARD"><span class="toc-number">3.</span> <span class="toc-text">酬赏/REWARD</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#投入-INVESTMENT"><span class="toc-number">4.</span> <span class="toc-text">投入/INVESTMENT</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#总结"><span class="toc-number">5.</span> <span class="toc-text">总结</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://yoursite.com/2018/03/26/消消乐/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://yoursite.com/2018/03/26/消消乐/&text=开心消消乐为什么让人上瘾"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://yoursite.com/2018/03/26/消消乐/&is_video=false&description=开心消消乐为什么让人上瘾"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=开心消消乐为什么让人上瘾&body=Check out this article: http://yoursite.com/2018/03/26/消消乐/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://yoursite.com/2018/03/26/消消乐/&title=开心消消乐为什么让人上瘾"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://yoursite.com/2018/03/26/消消乐/&name=开心消消乐为什么让人上瘾&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 返回顶部</a>
+    </div>
+
   </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
-
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">Tian Zhuang</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">5</span>
-                  <span class="site-state-item-name">标签</span>
-                
-              </div>
-            
-
-          </nav>
-
-          
-            <div class="feed-link motion-element">
-              <a href="/atom.xml" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
-              </a>
-            </div>
-          
-
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#触发-TRIGGER"><span class="nav-number">1.</span> <span class="nav-text">触发/TRIGGER</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#行动-ACTION"><span class="nav-number">2.</span> <span class="nav-text">行动/ACTION</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#酬赏-REWARD"><span class="nav-number">3.</span> <span class="nav-text">酬赏/REWARD</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#投入-INVESTMENT"><span class="nav-number">4.</span> <span class="nav-text">投入/INVESTMENT</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Tian Zhuang</span>
-
-  
 </div>
 
-
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
-
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
-
-
-
-
-        
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2018 Tian Zhuang
   </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about/">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/categories">categories</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
 
 </body>
 </html>
+<!-- styles -->
+<link rel="stylesheet" href="/lib/font-awesome/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+
+<!-- jquery -->
+<script src="/lib/jquery/jquery.min.js"></script>
+<script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Disqus Comments -->
+
+
