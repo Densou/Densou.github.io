@@ -52,9 +52,9 @@
       <category term="产品" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81/"/>
     
     
-      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
       <category term="直播" scheme="http://yoursite.com/tags/%E7%9B%B4%E6%92%AD/"/>
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
     
   </entry>
   
