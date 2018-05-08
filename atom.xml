@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-08T10:52:06.000Z</updated>
+  <updated>2018-05-08T10:53:41.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/05/08/%E9%95%9C%E5%AD%90/"/>
     <id>http://yoursite.com/2018/05/08/镜子/</id>
     <published>2018-05-08T07:25:54.000Z</published>
-    <updated>2018-05-08T10:52:06.000Z</updated>
+    <updated>2018-05-08T10:53:41.000Z</updated>
     
     <content type="html"><![CDATA[<p>逛PMCAFF论坛的时候看到一个讨论：<a href="https://www.pmcaff.com/discuss/index/785185697565760" target="_blank" rel="noopener">你会把一款镜子app加哪些功能？</a> 回答中除了质疑镜子APP伪需求、抖机灵，大多是增强现实、美妆滤镜等各种功能的堆砌。先不讨论镜子APP是否有无必要，回答中的思考方向只能设计出不痛不痒或者昙花一现的产品。</p><p>那如果让我来设计，镜子APP应该有哪些功能呢？</p><a id="more"></a><h3 id="需求及场景"><a href="#需求及场景" class="headerlink" title="需求及场景"></a>需求及场景</h3><p>现实生活中，每个人都有照镜子的需求。有这么几个场景：</p><ol><li>刚起床，一边洗漱一边照镜子，扫视自己的面部、身体</li><li>出门前，检查穿衣打扮是否得体</li><li>化妆</li><li>卸妆、护肤</li><li>办公、约会时去洗手间补妆</li><li>刚吃过饭，检查牙缝是否有食物残留</li><li>重要的会面之前，检查仪容仪表</li><li>单纯想照镜子，看自己美不美/美在哪里/不美在哪里</li></ol><p>上述需求列表中，1、2、3、4、5都属于在场景中能够得到确定满足的需求。6、7、8是随时随地有需求，但又没法保证需求满足，是镜子APP应该提供的服务范围。</p><h3 id="痛点"><a href="#痛点" class="headerlink" title="痛点"></a>痛点</h3><p>在需求列表中的6、7场景中，用户的恐惧是：怕脸上有奇奇怪怪的东西；怕发型坏了；怕裙子/裤子的屁股那里脏了……看脸只需要小镜子或者手机前置摄像头就可以。检查发型、衣服就只能借助穿衣镜或者同伴的评判。</p><p><strong>镜子APP的功能1：延时拍照</strong></p><p>描述：点击拍照到摄像头对准目标有延时，方便用户操作。</p><p><strong>镜子APP的功能2：拼接功能</strong></p><p>描述：前置摄像头拍照只能拍到局部，而且还不一定对准目标。镜子APP允许用户对准目标缓慢转动手机，将拍摄图片拼接为完整的照片。</p><h3 id="痒点"><a href="#痒点" class="headerlink" title="痒点"></a>痒点</h3><p>如何满足用户的虚拟人格？现在的美颜相机已经做的很到位了。</p><h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><p>上述痛点是最核心的需求，在此基础上，除了美颜，还可以添加、提高用户粘性的功能是：美白日历/肤质测评，借鉴：“美图美妆”、“你今天真好看”。</p>]]></content>
     
