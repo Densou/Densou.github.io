@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-08T10:53:41.000Z</updated>
+  <updated>2018-07-23T05:15:05.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>产品经理成长一</title>
+    <link href="http://yoursite.com/2018/07/23/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E6%88%90%E9%95%BF%E4%B8%80/"/>
+    <id>http://yoursite.com/2018/07/23/产品经理成长一/</id>
+    <published>2018-07-23T05:14:31.000Z</published>
+    <updated>2018-07-23T05:15:05.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="产品" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81/"/>
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>产品第一课</title>
+    <link href="http://yoursite.com/2018/07/18/%E4%BA%A7%E5%93%81%E7%AC%AC%E4%B8%80%E8%AF%BE/"/>
+    <id>http://yoursite.com/2018/07/18/产品第一课/</id>
+    <published>2018-07-18T05:21:28.000Z</published>
+    <updated>2018-07-18T05:41:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>17日下午，也是入职的第二天，部门老大和我聊了聊新产品的想法，再展开聊了产品、人生，完成了对我的第一节产品课。</p><h3 id="1-任何能想到的idea，都已经被想到过、做过"><a href="#1-任何能想到的idea，都已经被想到过、做过" class="headerlink" title="1 任何能想到的idea，都已经被想到过、做过"></a>1 任何能想到的idea，都已经被想到过、做过</h3><h3 id="2-产品能成功的充要条件是：信仰、资源"><a href="#2-产品能成功的充要条件是：信仰、资源" class="headerlink" title="2 产品能成功的充要条件是：信仰、资源"></a>2 产品能成功的充要条件是：信仰、资源</h3><p>有一种产品是无心插柳式的成功，比如钉钉。但这两三个人中，也有一个人坚信能做出来，才能有今天。</p><h3 id="3-关于信仰：我们今天讨论的APP，一定能够做出东西，但也一定不是今天所讨论的样子"><a href="#3-关于信仰：我们今天讨论的APP，一定能够做出东西，但也一定不是今天所讨论的样子" class="headerlink" title="3 关于信仰：我们今天讨论的APP，一定能够做出东西，但也一定不是今天所讨论的样子"></a>3 关于信仰：我们今天讨论的APP，一定能够做出东西，但也一定不是今天所讨论的样子</h3><p>做产品经理要有自己的信仰和想法。你做产品肯定会有人跳出来反对，同事说做不出来，老板质疑能不能成功，可能听到的90%都是反对的声音。人生其他事也是这个道理，周围人说你考不上梦想的学校、赚不来大钱。本来成功就只属于少数。人生那么短，要坚持自己想要的东西。</p><p>“心不唤物，物不至”。</p><h3 id="4-巨头是有盲点的，一些小蛋糕，他也不一定要去吃。"><a href="#4-巨头是有盲点的，一些小蛋糕，他也不一定要去吃。" class="headerlink" title="4 巨头是有盲点的，一些小蛋糕，他也不一定要去吃。"></a>4 巨头是有盲点的，一些小蛋糕，他也不一定要去吃。</h3><h3 id="5-平台型产品，需要解决双边关系"><a href="#5-平台型产品，需要解决双边关系" class="headerlink" title="5 平台型产品，需要解决双边关系"></a>5 平台型产品，需要解决双边关系</h3><p>往往生产者和平台是绑定在一起的，生产者不是平台的最终用户。用户使用这个平台，出了问题第一反应是找这个平台，比如早期的淘宝、直播。我们这款APP，不是电商那样商业化的产品。非商业产品，更接近精神层面，离钱不那么近，更适合用产品的思维去推动，运营反而不那么重要，就像一台车子一样，运营在这里只是上上机油。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;17日下午，也是入职的第二天，部门老大和我聊了聊新产品的想法，再展开聊了产品、人生，完成了对我的第一节产品课。&lt;/p&gt;
+&lt;h3 id=&quot;1-任何能想到的idea，都已经被想到过、做过&quot;&gt;&lt;a href=&quot;#1-任何能想到的idea，都已经被想到过、做过&quot; class=&quot;he
+      
+    
+    </summary>
+    
+      <category term="产品" scheme="http://yoursite.com/categories/%E4%BA%A7%E5%93%81/"/>
+    
+    
+      <category term="产品" scheme="http://yoursite.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+  </entry>
   
   <entry>
     <title>思考:镜子APP如何设计？</title>
